@@ -1,0 +1,94 @@
+/** {
+	border: 1px solid blue;
+}*/
+html,
+body,
+p,
+{
+		margin: 0;
+		padding: 0;
+}
+
+html{
+	text-size: 15px;
+}
+
+body {
+	background-color: rgb(29,34,37);
+}
+
+/*------------------------------   Nav   -----------------------*/
+nav {
+	width: 100%;
+	height: 59px;
+	margin: 0px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: rgb(167,187,204);
+	position: fixed;
+	z-index: 20;
+}
+
+nav img {
+	width: 5%;
+	height: auto;
+	margin-right: auto;
+}
+
+nav li{
+	font-size: 1.75rem;
+}
+p,
+label{
+	font-size: 2rem;
+}
+
+.about.about-text,
+.about img,
+.portfolio img,
+.contact_section form {
+	z-index: 0;
+}
+
+/*------------------------------   about   -----------------------*/
+.about{
+	background: #ff9988;
+	padding: 200px 0 200px 0;
+	background-color: rgb(83, 104,112);
+	color: rgb(171,174,146);
+
+}
+
+h2 {
+	font-size: 4rem;
+	text-align: center;
+}
+
+/*------------------------------   portfolio   -----------------------*/
+.portfolio {
+	padding: 3rem 0;
+}
+
+/*------------------------------   contact   -----------------------*/
+.contact-text p {
+	padding: 4rem 0 0 0;
+}
+.contact {
+	background-color: rgb(171,174,146);
+	padding: 200px 0 200px 0;
+}
+
+/*------------------------------   footer   -----------------------*/
+footer {
+	padding: 200px 0 50px 0;
+	background-color: rgb(167,187,204);
+}
+
+footer p {
+	text-align: center;
+}
+
+footer i {
+	margin: 0 auto;
+}
